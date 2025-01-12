@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+  }
+  body{
+    background-color: #F5F5F5;
   }
  .header-section{
   display: flex;
@@ -44,8 +48,93 @@
   font-size: 56px;
   padding-bottom: 20px;
  }
+ .vision-of-future{
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+ }
+ .vision-heading{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+ }
+ .vision-paragraph{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+ }
+ .future-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+ }
+ .future-section-card > h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
 
- 
-  
-  
- 
+ }
+ .future-section-card > p{
+  font-weight: 400;
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 25px;
+ }
+ .future-section-card-1{
+  background-color: #D5E1F5;
+ }
+ .future-section-card{
+  padding: 20px;
+  border-radius: 10px;
+ }
+  .future-section-card-1 > button{
+    padding: 10px 15px;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  .future-section-card-2{
+    background-color: #C6E4D6;
+   
+  }
+  .future-section-card-2 > button{
+    padding: 10px 15px;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  .future-section-card-3{
+    background-color: #F7EBCF;
+  }
+  .future-section-card-3 > button{
+    padding: 10px 15px;
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+  .qoute-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 25px;
+
+
+  }
+  .qoute-paragraph{
+    margin-top: 13px;
+    margin-left: 5px;
+    line-height: 20px;
+    
+  }
+  .qoute-title {
+    margin-top: 20px;
+  }
